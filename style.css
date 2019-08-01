@@ -1,86 +1,75 @@
-/**
- * Float Layout Activity
- **/
-
 * {
   box-sizing: border-box;
   text-align: center;
 }
 
 body {
+  width: 960px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 header {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
+  padding: 30px;
+  color: #777;
+  background: #ebebeb;
+  margin: 0px 150px 10px 200px;
 }
 
-section {
-
+nav {
+  color: #777;
+  background: #ebebeb;
+  margin: 0px 150px 20px 200px;
+  padding: 30px;
 }
 
-#left {
-  background: #716E6D;
-  color: white;
+.section {
+  color: #777;
+  background: #ebebeb;
+  padding: 20px 8px 8px 8px;
   float: left;
-  width: 33.3333%;
+  width: 40%;
+  margin-left: 200px;
+  margin-bottom: 15px;
+}
+
+.article {
+  background: #777;
+  color: #ebebeb;
+  padding: 20px 20px 10px 20px;
+  
+}
+.htags {
   padding: 20px;
+  border: 20px;
+  color: #777;
+  background: #ebebeb;
+  margin: 5px 10px 10px 6px;
 }
 
-#middle {
-  background: #3C3735;
-  color: white;
-  width: 33.3333%;
-  float: left;
-  padding: 20px;
+.p {
+  padding:  20px;
+  border: 20px;
+  color: #777;
+  background: #ebebeb;
+  margin: 5px 10px 10px 6px;
+  }
+
+.aside {
+  color: #777;
+  background: #ebebeb;
+  padding: 30px 0px 195px 0px;
+  width: 22%;
+  float: right;
+  margin-right: 150px;
 }
 
-#right {
-  background: #716E6D;
-  color: white;
-  width: 33.3333%;
-  float: left;
-  padding: 20px;
-}
-
-#full {
-
-  background: #efeeee;
-  padding: 20px;
-  width: 100%;
-}
-
-.clearfix::after {
-
-  content:"";
-  clear:both;
-}
-#division {
-  background: #0BA6F9;
-  color: #333;
-  padding: 20px;
-  margin: 20px 30px 40px 30px;
-  width: 100%;
-
-}
-
-aside {
-  background: white;
-  color: #333;
-  float: left;
-  padding: 30px 50px 150px 50px;
-  margin: 20px 20px 20px 5px;
-
-}
-
-section {
-}
 
 footer {
-  color: #333;
-  background: #ccc;
-  padding: 20px;
-  margin-top: 20px;
+  color: #777;
+  background: #ebebeb;
+  padding: 30px;
+  margin: 20px 150px 5px 200px;
+  float: none;
+  clear: both;
 }
+
